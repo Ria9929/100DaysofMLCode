@@ -17,7 +17,7 @@ The Upper Confidence Bound follows the principle of optimism in the face of unce
 
 The Steps are followed in this tutorial are given below:
 
-![UCBImage](7_Reinforcement_Learning/Upper_confidence_Bound/UpperConfidenceBound.png)
+<img src="https://github.com/NishkarshRaj/100DaysofMLCode/blob/master/7_Reinforcement_Learning/Upper_confidence_Bound/UpperConfidenceBound.png">
 
 [2. Thompson Sampling](Thompson_Sampling)
 
