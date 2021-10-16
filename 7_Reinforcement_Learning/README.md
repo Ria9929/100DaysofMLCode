@@ -10,9 +10,14 @@ Although the designer sets the reward policy–that is, the rules of the game–
 - Non-Greedy Action: When the agent does not choose the largest estimated value and sacrifice immediate reward hoping to gain more information about the other actions.
 - Exploration: It allows the agent to improve its knowledge about each action. Hopefully, leading to a long-term benefit.
 - Exploitation: It allows the agent to choose the greedy action to try to get the most reward for short-term benefit. A pure greedy action selection can lead to sub-optimal behaviour.
+
 A dilemma occurs between exploration and exploitation because an agent can not choose to both explore and exploit at the same time. Hence, we use the Upper Confidence Bound algorithm to solve the exploration-exploitation dilemma
 Upper-Confidence Bound action selection uses uncertainty in the action-value estimates for balancing exploration and exploitation. Since there is inherent uncertainty in the accuracy of the action-value estimates when we use a sampled set of rewards thus UCB uses uncertainty in the estimates to drive exploration.
 The Upper Confidence Bound follows the principle of optimism in the face of uncertainty which implies that if we are uncertain about an action, we should optimistically assume that it is the correct action.
+
+The Steps are followed in this tutorial are given below:
+
+[!Image](../master/7_Reinforcement_Learning/Upper_confidence_Bound/UpperConfidenceBound.png)
 
 [2. Thompson Sampling](Thompson_Sampling)
 
