@@ -25,3 +25,5 @@ An algorithm that follows exploration and exploitation to maximize the cumulativ
 
 Multi-armed Bandit is synonymous to a slot machine with many arms. Each action selection is like a play of one of the slot machine’s levers, and the rewards are the payoffs for hitting the jackpot. Through repeated action selections you are to maximize your winnings by concentrating your actions on the best levers. Each machine provides a different reward from a probability distribution over mean reward specific to the machine. Without knowing these probabilities, the gambler has to maximize the sum of reward earned through a sequence of arms pull. If you maintain estimates of the action values, then at any time step there is at least one action whose estimated value is greatest. We call this a greedy action.
 
+The following image indicates the steps followed in this tutorial:
+<img src="https://github.com/NishkarshRaj/100DaysofMLCode/blob/master/7_Reinforcement_Learning/Thompson_Sampling/Thompson_Sampling.png">
