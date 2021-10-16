@@ -15,7 +15,7 @@ A dilemma occurs between exploration and exploitation because an agent can not c
 Upper-Confidence Bound action selection uses uncertainty in the action-value estimates for balancing exploration and exploitation. Since there is inherent uncertainty in the accuracy of the action-value estimates when we use a sampled set of rewards thus UCB uses uncertainty in the estimates to drive exploration.
 The Upper Confidence Bound follows the principle of optimism in the face of uncertainty which implies that if we are uncertain about an action, we should optimistically assume that it is the correct action.
 
-The Steps are followed in this tutorial are given below:
+The Steps are followed in the code are given below:
 
 <img src="https://github.com/NishkarshRaj/100DaysofMLCode/blob/master/7_Reinforcement_Learning/Upper_confidence_Bound/UpperConfidenceBound.png">
 
@@ -25,5 +25,6 @@ An algorithm that follows exploration and exploitation to maximize the cumulativ
 
 Multi-armed Bandit is synonymous to a slot machine with many arms. Each action selection is like a play of one of the slot machine’s levers, and the rewards are the payoffs for hitting the jackpot. Through repeated action selections you are to maximize your winnings by concentrating your actions on the best levers. Each machine provides a different reward from a probability distribution over mean reward specific to the machine. Without knowing these probabilities, the gambler has to maximize the sum of reward earned through a sequence of arms pull. If you maintain estimates of the action values, then at any time step there is at least one action whose estimated value is greatest. We call this a greedy action.
 
-The following image indicates the steps followed in this tutorial:
+The following image indicates the steps followed in the code:
+
 <img src="https://github.com/NishkarshRaj/100DaysofMLCode/blob/master/7_Reinforcement_Learning/Thompson_Sampling/Thompson_Sampling.png">
